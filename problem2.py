@@ -16,7 +16,7 @@ side_1 = int(input("Enter the length of side 1: "))
 side_2 = int(input("Enter the length of side 2: "))
 side_3 = int(input("Enter the length of side 3: "))
 
-# Comput results
+# Compute results
 if (side_1 + side_2 > side_3) and (side_1 + side_3 > side_2) and (side_2 + side_3 > side_1):
   print("The figure with the side lengths of " + str(side_1) + "," + str(side_2) + ", and " + str(side_3) + " is a triangle.")
 else:
